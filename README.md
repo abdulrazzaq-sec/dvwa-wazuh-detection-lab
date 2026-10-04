@@ -63,6 +63,8 @@ DVWA always returns HTTP 200 even on failed logins or injection attempts, so Waz
 
 Each rule is mapped to its MITRE ATT&CK technique so alerts show up tagged correctly in the dashboard.
 
+![Custom rules in local_rules.xml](screenshots/13-detection-rules-file.png)
+
 | Attack | Wazuh Rule ID | Alerts fired | MITRE Technique |
 |---|---|---|---|
 | Brute Force | 100011 | 6 | T1110 |
